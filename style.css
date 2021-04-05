@@ -1,0 +1,197 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    /*  */
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+.section_title h3{
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.hr_style{
+    border: 5px dotted white;
+    border-bottom: none;
+    width: 50px;
+}
+/* Header Start */
+.navbar{
+    padding: 1% 10%;
+    background-color: rgb(0, 0,0,0.3);
+}
+.navbar_icon{
+    color: white;
+}
+.navbar-brand img{
+    width: 60px;
+    height: auto;
+}
+.nav-link{
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.nav-link:hover{
+    background-color: #2980b9;
+    transform: scaleY(1.1);
+    color: white;
+}
+header{
+    background-image: url(img/banner.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner_container{
+    height: 100vh;
+}
+.banner_container h1{
+    font-size: 3.5rem;
+    background-color: rgb(7, 101, 189,0.8);
+    padding: 10px 20px;
+    font-family: 'Handlee', cursive;;
+}
+/* Header Ends */
+
+/* Feature Start */
+#featurs{
+    padding: 5% 10%;
+    background-color: #e8ded2;
+}
+
+.inner_feature{
+    border: 1px solid #ff02c0;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: 0.4s;
+}
+.inner_feature:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+.icon_style{
+    background-color: #bb0aac;
+    color: white;
+    padding: 15px;
+    margin: 5px 0;
+}
+/* Feature Ends */
+
+/* About Start */
+#about_me{
+    padding: 4% 10%;
+    background-color: #e8ded2;
+}
+#about_me hr{
+    border-color: black;
+}
+.basic_des button{
+    margin: 10px 0;
+    
+}
+.basic_des a{
+    color: black;
+    font-size: 14px;
+    text-decoration: underline;
+    font-weight: lighter;
+    
+}
+.basic_des p{
+    font-size: 14px;
+    margin-bottom: 0;
+    font-weight: lighter;
+}
+.achive_des p{
+    font-weight: lighter;
+    font-size: 14px;
+}
+.achive_des span{
+    font-weight: bold;
+}
+.star{
+    width: 20px;
+    margin-left: 5px;
+}
+/* About Ends */
+
+/* Tutorial Start */
+#tutorial{
+    padding: 4% 10%;
+    background-color: #a3d2ca;
+}
+#tutorial hr{
+    border-color: black;
+}
+.card{
+    border: 1px solid #ff02c0;
+    transition: 0.4s;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+/* Tutorial Emds */
+
+/* Feedbeck Start */
+#feedbeck{
+    padding: 5%;
+    background-color: #5eaaa8;
+}
+.carousel-item{
+    text-align: center;
+    padding: 7% 15%;
+    font-size: 20px;
+    font-style: italic;
+}
+.feedbeck_img{
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+}
+/* Feedbeck Ends */
+
+/* Contact Strat */
+#contact{
+    padding: 4% 10%;
+    background-color: #a3d2ca;
+}
+#contact hr{
+    border-color: black;
+}
+.form-group label{
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+/* Contact Ends */
+
+/* Footer Start */
+footer{
+    padding: 1% 10%;
+    background-color: #056676;
+}
+footer a{
+    color: white;
+    margin: 0 5px;
+}
+footer a:hover{
+    color: black;
+}
+/* Footer Ends */
+
+@media(max-width:768px){
+    .nav-link{
+        background-color: rgb(0, 0,0,0.7);
+    }
+    .banner_container h1{
+        font-size: 2.5rem;
+    }
+}
